@@ -1,0 +1,27 @@
+.axis-label {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: semibold;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+#main {
+    margin: 20px;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 200px;					
+    height: 40px;					
+    padding: 4px;				
+    font: 12px sans-serif;		
+    background: mistyrose;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
